@@ -1,0 +1,3183 @@
+09:07:52.601
+System
+Build
+ Render Start 
+09:07:53.924
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:07:54.293
+Backend
+Log
+ Server restarting... 
+09:07:54.293
+Backend
+Log
+ Server stopped. 
+09:07:54.293
+Backend
+Log
+ Server started on port 3000.
+  
+  > react-example@0.0.0 dev
+  > tsx server.ts --port 3000 --host 0.0.0.0
+   
+09:07:54.297
+Backend
+Error
+ Pre-warming failed: dev server process died.
+  ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+  (!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+    - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
+  Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+  [Convoy Watch] Unified dev server listening on http://0.0.0.0:3000
+  [Convoy Watch] MCP Streamable HTTP endpoint: http://0.0.0.0:3000/mcp
+  [Convoy Watch] Simulation API: http://0.0.0.0:3000/api/trips
+  [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01
+  [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:07:54.298
+Backend
+Log
+ CONNECTED 
+09:07:54.298
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:07:54.766
+App
+Log
+ [API Client Debug] Response status: 200 
+09:07:55.356
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:07:55.965
+System
+Build
+ Render End 
+09:07:56.127
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:07:56.279
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:07:57.247
+App
+Log
+ [API Client Debug] Response status: 200 
+09:07:57.379
+App
+Warning
+ As of February 21st, 2024, google.maps.Marker is deprecated. Please use google.maps.marker.AdvancedMarkerElement instead. At this time, google.maps.Marker is not scheduled to be discontinued, but google.maps.marker.AdvancedMarkerElement is recommended over google.maps.Marker. While google.maps.Marker will continue to receive bug fixes for any major regressions, existing bugs in google.maps.Marker will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/deprecations for additional details and https://developers.google.com/maps/documentation/javascript/advanced-markers/migration for the migration guide. 
+09:07:57.379
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:07:58.286
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:07:59.021
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:07:59.096
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:07:59.392
+App
+Log
+ [API Client Debug] Response status: 200 
+09:07:59.457
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:01.294
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:02.016
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:02.081
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:02.384
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:02.448
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:04.313
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:05.017
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:05.150
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:05.873
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:05.873
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:07.685
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:08.027
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:08.029
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:08.411
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:08.499
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:09.032
+Backend
+Log
+ Installing node_modules... 
+09:08:09.032
+Backend
+Log
+ [0.10ms] ".env" 
+09:08:09.120
+Backend
+Log
+ bun install v1.4.2 (744846f84) 
+09:08:09.120
+Backend
+Log
+ Checked 282 installs across 398 packages (no changes) [38.00ms] 
+09:08:09.120
+Backend
+Log
+ Dependency installation finished. 
+09:08:09.120
+Backend
+Log
+ Server restarting... 
+09:08:09.120
+Backend
+Log
+ Server stopped. 
+09:08:09.120
+Backend
+Log
+ Server started on port 3000. 
+09:08:09.120
+Backend
+Log
+ Pre-warming 1 paths... 
+09:08:09.612
+Backend
+Log
+ > react-example@0.0.0 dev 
+09:08:09.730
+Backend
+Log
+ > tsx server.ts --port 3000 --host 0.0.0.0 
+09:08:09.730
+Backend
+Log
+ Installing node_modules... 
+09:08:09.730
+Backend
+Log
+ [3.03ms] ".env" 
+09:08:09.730
+Backend
+Log
+ bun install v1.4.2 (744846f84) 
+09:08:09.730
+Backend
+Log
+ Checked 282 installs across 398 packages (no changes) [57.00ms] 
+09:08:09.730
+Backend
+Log
+ Dependency installation finished. 
+09:08:09.730
+Backend
+Log
+ Server restarting... 
+09:08:09.730
+Backend
+Log
+ Server stopped. 
+09:08:10.030
+Backend
+Log
+ Server started on port 3000. 
+09:08:10.168
+Backend
+Log
+ Pre-warming 1 paths... 
+09:08:10.168
+Backend
+Log
+ > react-example@0.0.0 dev 
+09:08:10.169
+Backend
+Log
+ > tsx server.ts --port 3000 --host 0.0.0.0 
+09:08:10.169
+Backend
+Error
+ Pre-warming failed: dev server process died. 
+09:08:11.028
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:11.030
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:11.396
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:11.534
+App
+Log
+ [API Client Debug] JSON Parse Error. Response body:
+  <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting Server...</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+
+      body {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        background-color: light-dark(#f5f5f5, #191919);
+        color: light-dark(#0f0f10, #d4d4d4);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container {
+        background: light-dark(#fff, #1f1f1f);
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow:
+          0 4px 6px -1px light-dark(rgba(10, 13, 18, 0.1), rgba(0, 0, 0, 0.5)),
+          0 2px 4px -2px light-dark(rgba(10, 13, 18, 0.06), rgba(0, 0, 0, 0.3));
+        max-width: 450px;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: light-dark(#0f0f10, #d4d4d4);
+      }
+
+      p {
+        font-size: 0.95rem;
+        color: light-dark(#5b5b64, #8c8c8c);
+        line-height: 1.5;
+        margin: 0;
+        text-wrap: balance;
+      }
+
+      /* Loading Spinner Animation */
+      .spinner {
+        margin: 0 auto 1.5rem auto;
+        width: 40px;
+        height: 40px;
+        border: 4px solid light-dark(#f0f0f0, #262626);
+        border-top: 4px solid light-dark(#076eff, #87a9ff); /* Blue color */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      .logo {
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto 2rem auto;
+      }
+
+      .reload-button {
+        margin-top: 2rem;
+        padding: 10px 24px;
+        font-family: inherit;
+        font-size: 0.875rem;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 100px;
+        border: 1px solid light-dark(#ebebeb, #333);
+        background-color: light-dark(#fff, #323232);
+        color: light-dark(#0f0f10, #fcfcfc);
+        transition: background-color 0.2s;
+      }
+
+      .reload-button:hover {
+        background-color: light-dark(#ebebeb, #424242);
+      }
+
+      .reload-button:active {
+        background-color: light-dark(#e5e5e5, #555);
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="logo"
+        src="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png"
+        alt="AI Studio Logo"
+        width="256"
+        height="256"
+      />
+      <div class="spinner"></div>
+      <h1>Please wait while your application starts...</h1>
+      <p>
+        If this page persists for a long time, there may have been an issue during the build
+        process.
+      </p>
+      <button class="reload-button" onclick="window.location.reload()">Reload now</button>
+    </div>
+
+    <script>
+      const MAX_RELOADS = 15;
+      const RELOAD_DELAY_MS = 5000;
+      const RESET_THRESHOLD_MS = 30000;
+
+      const now = Date.now();
+      let startTime = Number(sessionStorage.getItem("warmup_start_time") || "0");
+      const lastReloadTime = Number(
+        sessionStorage.getItem("warmup_last_reload_time") || "0"
+      );
+
+      // If the last reload attempt was a long time ago (or on first run), reset the start time.
+      // This handles the case where the app was working but then restarted later.
+      // Clear the "failed sent" flag as well, so we only notify the parent frame once.
+      // Check `now - lastReloadTime` instead of `now - startTime` so the reset threshold
+      // doesn't collide with the extended warmup window (MAX_RELOADS * RELOAD_DELAY_MS).
+      if (!startTime || now - lastReloadTime > RESET_THRESHOLD_MS) {
+        startTime = now;
+        sessionStorage.setItem("warmup_start_time", startTime.toString());
+        sessionStorage.removeItem("warmup_failed_sent");
+      }
+      sessionStorage.setItem("warmup_last_reload_time", now.toString());
+
+      // Reload if we are still within the allowed warmup window.
+      if (now - startTime < MAX_RELOADS * RELOAD_DELAY_MS) {
+        setTimeout(() => {
+          window.location.reload();
+        }, RELOAD_DELAY_MS);
+      } else {
+        // Reloads exhausted — switch to error state. If we are in an iframe, notify the parent frame.
+        if (window.parent !== window) {
+          document.querySelector(".spinner").style.display = "none";
+          document.querySelector("h1").textContent = "Your application failed to start";
+          document.querySelector("p").textContent =
+            "There was an error during the build process. " +
+            "Give us a moment to try and fix it...";
+          document.querySelector(".reload-button").style.display = "none";
+
+          // Notify the parent frame only if we haven't done so already.
+          if (sessionStorage.getItem("warmup_failed_sent") !== "true") {
+            window.parent.postMessage({ type: "__aistudio_warmup_failed" }, "*");
+            sessionStorage.setItem("warmup_failed_sent", "true");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
+ 
+09:08:11.663
+App
+Error
+ Failed to poll trip telemetry:
+  SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at b.getTrip (https://ais-dev-pxynqldp35dqfyh6wotq7b-439061307984.europe-west2.run.app/assets/index-gwd6HGO7.js:11:1345)
+    at async Ee (https://ais-dev-pxynqldp35dqfyh6wotq7b-439061307984.europe-west2.run.app/assets/index-gwd6HGO7.js:15:35896) 
+09:08:12.190
+Backend
+Log
+ ◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true } 
+09:08:12.508
+Backend
+Log
+ (!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite: 
+09:08:12.618
+Backend
+Log
+ - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead 
+09:08:12.618
+Backend
+Log
+ Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning. 
+09:08:12.618
+Backend
+Log
+ [Convoy Watch] Unified dev server listening on http://0.0.0.0:3000 
+09:08:12.618
+Backend
+Log
+ [Convoy Watch] MCP Streamable HTTP endpoint: http://0.0.0.0:3000/mcp 
+09:08:12.618
+Backend
+Log
+ [Convoy Watch] Simulation API: http://0.0.0.0:3000/api/trips 
+09:08:12.756
+Backend
+Log
+ Pre-warming completed. 
+09:08:13.293
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:14.026
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:14.029
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:14.396
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:14.547
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:16.358
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:17.026
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:17.030
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:17.591
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:17.592
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:19.578
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:20.026
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:20.027
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:20.540
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:20.667
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:21.239
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:23.025
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:23.027
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:23.426
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:23.549
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:24.475
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:26.024
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:26.026
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:26.691
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:26.880
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:27.594
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:29.023
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:29.211
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:29.427
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:29.596
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:30.621
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:30.621
+Backend
+Log
+ Server restarting... 
+09:08:30.621
+Backend
+Log
+ Server stopped. 
+09:08:30.621
+Backend
+Log
+ Server started on port 3000. 
+09:08:30.846
+Backend
+Log
+ > react-example@0.0.0 dev 
+09:08:31.007
+Backend
+Log
+ > tsx server.ts --port 3000 --host 0.0.0.0 
+09:08:32.041
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:32.048
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:32.492
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:32.497
+App
+Log
+ [API Client Debug] JSON Parse Error. Response body:
+  <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting Server...</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+
+      body {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        background-color: light-dark(#f5f5f5, #191919);
+        color: light-dark(#0f0f10, #d4d4d4);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container {
+        background: light-dark(#fff, #1f1f1f);
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow:
+          0 4px 6px -1px light-dark(rgba(10, 13, 18, 0.1), rgba(0, 0, 0, 0.5)),
+          0 2px 4px -2px light-dark(rgba(10, 13, 18, 0.06), rgba(0, 0, 0, 0.3));
+        max-width: 450px;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: light-dark(#0f0f10, #d4d4d4);
+      }
+
+      p {
+        font-size: 0.95rem;
+        color: light-dark(#5b5b64, #8c8c8c);
+        line-height: 1.5;
+        margin: 0;
+        text-wrap: balance;
+      }
+
+      /* Loading Spinner Animation */
+      .spinner {
+        margin: 0 auto 1.5rem auto;
+        width: 40px;
+        height: 40px;
+        border: 4px solid light-dark(#f0f0f0, #262626);
+        border-top: 4px solid light-dark(#076eff, #87a9ff); /* Blue color */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      .logo {
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto 2rem auto;
+      }
+
+      .reload-button {
+        margin-top: 2rem;
+        padding: 10px 24px;
+        font-family: inherit;
+        font-size: 0.875rem;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 100px;
+        border: 1px solid light-dark(#ebebeb, #333);
+        background-color: light-dark(#fff, #323232);
+        color: light-dark(#0f0f10, #fcfcfc);
+        transition: background-color 0.2s;
+      }
+
+      .reload-button:hover {
+        background-color: light-dark(#ebebeb, #424242);
+      }
+
+      .reload-button:active {
+        background-color: light-dark(#e5e5e5, #555);
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="logo"
+        src="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png"
+        alt="AI Studio Logo"
+        width="256"
+        height="256"
+      />
+      <div class="spinner"></div>
+      <h1>Please wait while your application starts...</h1>
+      <p>
+        If this page persists for a long time, there may have been an issue during the build
+        process.
+      </p>
+      <button class="reload-button" onclick="window.location.reload()">Reload now</button>
+    </div>
+
+    <script>
+      const MAX_RELOADS = 15;
+      const RELOAD_DELAY_MS = 5000;
+      const RESET_THRESHOLD_MS = 30000;
+
+      const now = Date.now();
+      let startTime = Number(sessionStorage.getItem("warmup_start_time") || "0");
+      const lastReloadTime = Number(
+        sessionStorage.getItem("warmup_last_reload_time") || "0"
+      );
+
+      // If the last reload attempt was a long time ago (or on first run), reset the start time.
+      // This handles the case where the app was working but then restarted later.
+      // Clear the "failed sent" flag as well, so we only notify the parent frame once.
+      // Check `now - lastReloadTime` instead of `now - startTime` so the reset threshold
+      // doesn't collide with the extended warmup window (MAX_RELOADS * RELOAD_DELAY_MS).
+      if (!startTime || now - lastReloadTime > RESET_THRESHOLD_MS) {
+        startTime = now;
+        sessionStorage.setItem("warmup_start_time", startTime.toString());
+        sessionStorage.removeItem("warmup_failed_sent");
+      }
+      sessionStorage.setItem("warmup_last_reload_time", now.toString());
+
+      // Reload if we are still within the allowed warmup window.
+      if (now - startTime < MAX_RELOADS * RELOAD_DELAY_MS) {
+        setTimeout(() => {
+          window.location.reload();
+        }, RELOAD_DELAY_MS);
+      } else {
+        // Reloads exhausted — switch to error state. If we are in an iframe, notify the parent frame.
+        if (window.parent !== window) {
+          document.querySelector(".spinner").style.display = "none";
+          document.querySelector("h1").textContent = "Your application failed to start";
+          document.querySelector("p").textContent =
+            "There was an error during the build process. " +
+            "Give us a moment to try and fix it...";
+          document.querySelector(".reload-button").style.display = "none";
+
+          // Notify the parent frame only if we haven't done so already.
+          if (sessionStorage.getItem("warmup_failed_sent") !== "true") {
+            window.parent.postMessage({ type: "__aistudio_warmup_failed" }, "*");
+            sessionStorage.setItem("warmup_failed_sent", "true");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
+ 
+09:08:32.498
+App
+Error
+ Failed to poll trip telemetry:
+  SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at b.getTrip (https://ais-dev-pxynqldp35dqfyh6wotq7b-439061307984.europe-west2.run.app/assets/index-gwd6HGO7.js:11:1345)
+    at async Ee (https://ais-dev-pxynqldp35dqfyh6wotq7b-439061307984.europe-west2.run.app/assets/index-gwd6HGO7.js:15:35896) 
+09:08:32.763
+Backend
+Log
+ ◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true } 
+09:08:32.911
+Backend
+Log
+ Installing node_modules... 
+09:08:32.911
+Backend
+Log
+ [0.04ms] ".env" 
+09:08:32.911
+Backend
+Log
+ bun install v1.4.2 (744846f84) 
+09:08:32.911
+Backend
+Log
+ Checked 282 installs across 398 packages (no changes) [26.00ms] 
+09:08:32.911
+Backend
+Log
+ Dependency installation finished. 
+09:08:32.911
+Backend
+Log
+ Server restarting... 
+09:08:32.912
+Backend
+Log
+ Server stopped. 
+09:08:32.912
+Backend
+Log
+ Server started on port 3000. 
+09:08:32.912
+Backend
+Log
+ Pre-warming 1 paths... 
+09:08:33.271
+Backend
+Log
+ > react-example@0.0.0 dev 
+09:08:33.271
+Backend
+Log
+ > tsx server.ts --port 3000 --host 0.0.0.0 
+09:08:34.991
+Backend
+Log
+ ◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' } 
+09:08:35.175
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:35.403
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:35.404
+Backend
+Log
+ (!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite: 
+09:08:35.404
+Backend
+Log
+ - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead 
+09:08:35.404
+Backend
+Log
+ Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning. 
+09:08:35.404
+Backend
+Log
+ [Convoy Watch] Unified dev server listening on http://0.0.0.0:3000 
+09:08:35.404
+Backend
+Log
+ [Convoy Watch] MCP Streamable HTTP endpoint: http://0.0.0.0:3000/mcp 
+09:08:35.404
+Backend
+Log
+ [Convoy Watch] Simulation API: http://0.0.0.0:3000/api/trips 
+09:08:35.914
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:36.252
+Backend
+Log
+ Pre-warming completed. 
+09:08:36.602
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:36.602
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:38.037
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:38.039
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:39.064
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:39.065
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:39.663
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:41.027
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:41.032
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:41.473
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:41.669
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:41.850
+Backend
+Log
+ Server restarting... 
+09:08:41.851
+Backend
+Log
+ Server stopped. 
+09:08:41.851
+Backend
+Log
+ Server started on port 3000. 
+09:08:42.053
+App
+Error
+ Failed to poll trip telemetry:
+  SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON 
+09:08:42.469
+Backend
+Log
+ > react-example@0.0.0 dev 
+09:08:42.469
+Backend
+Log
+ > tsx server.ts --port 3000 --host 0.0.0.0 
+09:08:43.669
+Backend
+Log
+ Starting build... 
+09:08:43.878
+Backend
+Log
+ ◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] } 
+09:08:44.022
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:44.026
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:44.294
+Backend
+Log
+ > react-example@0.0.0 build 
+09:08:44.294
+Backend
+Log
+ > npm run build:pkg && npm run build:client && npm run build:server 
+09:08:44.431
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:44.550
+Backend
+Log
+ > react-example@0.0.0 build:pkg 
+09:08:44.550
+Backend
+Log
+ > npm run build --workspace=packages/mcp-provenance 
+09:08:44.550
+Backend
+Log
+ [Convoy Watch] Unified dev server listening on http://0.0.0.0:3000 
+09:08:44.550
+Backend
+Log
+ [Convoy Watch] MCP Streamable HTTP endpoint: http://0.0.0.0:3000/mcp 
+09:08:44.550
+Backend
+Log
+ [Convoy Watch] Simulation API: http://0.0.0.0:3000/api/trips 
+09:08:44.550
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:44.677
+Backend
+Log
+ > @convoy/mcp-provenance@1.0.0 build 
+09:08:44.677
+Backend
+Log
+ > tsc -p tsconfig.json 
+09:08:45.053
+Backend
+Log
+ > react-example@0.0.0 build:client 
+09:08:45.053
+Backend
+Log
+ > vite build 
+09:08:45.458
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:45.625
+Backend
+Log
+ vite v8.3.4 building client environment for production... 
+09:08:45.625
+Backend
+Log
+ transforming... 
+09:08:46.051
+Backend
+Log
+ ✓ 1673 modules transformed. 
+09:08:46.152
+Backend
+Log
+ rendering chunks... 
+09:08:46.273
+Backend
+Log
+ computing gzip size... 
+09:08:46.273
+Backend
+Log
+ dist/index.html                   0.97 kB │ gzip:  0.44 kB 
+09:08:46.273
+Backend
+Log
+ dist/assets/index-D3cRSQux.css   49.45 kB │ gzip:  9.04 kB 
+09:08:46.273
+Backend
+Log
+ dist/assets/index-gwd6HGO7.js   326.98 kB │ gzip: 99.41 kB 
+09:08:46.273
+Backend
+Log
+ ✓ built in 707ms 
+09:08:46.456
+Backend
+Log
+ > react-example@0.0.0 build:server 
+09:08:46.456
+Backend
+Log
+ > esbuild server/index.ts --bundle --platform=node --target=node22 --format=esm --packages=external --outfile=dist/server.js 
+09:08:46.564
+Backend
+Log
+ dist/server.js  56.0kb 
+09:08:46.564
+Backend
+Log
+ ⚡ Done in 8ms 
+09:08:46.564
+Backend
+Log
+ Build successful. 
+09:08:47.026
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:47.160
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:47.431
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:47.550
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:48.474
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:48.844
+Backend
+Log
+ Installing node_modules... 
+09:08:48.961
+Backend
+Log
+ [0.06ms] ".env" 
+09:08:48.961
+Backend
+Log
+ bun install v1.4.2 (744846f84) 
+09:08:48.961
+Backend
+Log
+ Checked 282 installs across 398 packages (no changes) [27.00ms] 
+09:08:48.961
+Backend
+Log
+ Dependency installation finished. 
+09:08:48.961
+Backend
+Log
+ Server restarting... 
+09:08:48.961
+Backend
+Log
+ Server stopped. 
+09:08:48.961
+Backend
+Log
+ Server started on port 3000. 
+09:08:48.961
+Backend
+Log
+ Pre-warming 1 paths... 
+09:08:49.129
+Backend
+Log
+ > react-example@0.0.0 dev 
+09:08:49.259
+Backend
+Log
+ > tsx server.ts --port 3000 --host 0.0.0.0 
+09:08:50.022
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:50.261
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:50.479
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:50.484
+App
+Log
+ [API Client Debug] JSON Parse Error. Response body:
+  <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting Server...</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+
+      body {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        background-color: light-dark(#f5f5f5, #191919);
+        color: light-dark(#0f0f10, #d4d4d4);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container {
+        background: light-dark(#fff, #1f1f1f);
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow:
+          0 4px 6px -1px light-dark(rgba(10, 13, 18, 0.1), rgba(0, 0, 0, 0.5)),
+          0 2px 4px -2px light-dark(rgba(10, 13, 18, 0.06), rgba(0, 0, 0, 0.3));
+        max-width: 450px;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: light-dark(#0f0f10, #d4d4d4);
+      }
+
+      p {
+        font-size: 0.95rem;
+        color: light-dark(#5b5b64, #8c8c8c);
+        line-height: 1.5;
+        margin: 0;
+        text-wrap: balance;
+      }
+
+      /* Loading Spinner Animation */
+      .spinner {
+        margin: 0 auto 1.5rem auto;
+        width: 40px;
+        height: 40px;
+        border: 4px solid light-dark(#f0f0f0, #262626);
+        border-top: 4px solid light-dark(#076eff, #87a9ff); /* Blue color */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      .logo {
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto 2rem auto;
+      }
+
+      .reload-button {
+        margin-top: 2rem;
+        padding: 10px 24px;
+        font-family: inherit;
+        font-size: 0.875rem;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 100px;
+        border: 1px solid light-dark(#ebebeb, #333);
+        background-color: light-dark(#fff, #323232);
+        color: light-dark(#0f0f10, #fcfcfc);
+        transition: background-color 0.2s;
+      }
+
+      .reload-button:hover {
+        background-color: light-dark(#ebebeb, #424242);
+      }
+
+      .reload-button:active {
+        background-color: light-dark(#e5e5e5, #555);
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="logo"
+        src="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png"
+        alt="AI Studio Logo"
+        width="256"
+        height="256"
+      />
+      <div class="spinner"></div>
+      <h1>Please wait while your application starts...</h1>
+      <p>
+        If this page persists for a long time, there may have been an issue during the build
+        process.
+      </p>
+      <button class="reload-button" onclick="window.location.reload()">Reload now</button>
+    </div>
+
+    <script>
+      const MAX_RELOADS = 15;
+      const RELOAD_DELAY_MS = 5000;
+      const RESET_THRESHOLD_MS = 30000;
+
+      const now = Date.now();
+      let startTime = Number(sessionStorage.getItem("warmup_start_time") || "0");
+      const lastReloadTime = Number(
+        sessionStorage.getItem("warmup_last_reload_time") || "0"
+      );
+
+      // If the last reload attempt was a long time ago (or on first run), reset the start time.
+      // This handles the case where the app was working but then restarted later.
+      // Clear the "failed sent" flag as well, so we only notify the parent frame once.
+      // Check `now - lastReloadTime` instead of `now - startTime` so the reset threshold
+      // doesn't collide with the extended warmup window (MAX_RELOADS * RELOAD_DELAY_MS).
+      if (!startTime || now - lastReloadTime > RESET_THRESHOLD_MS) {
+        startTime = now;
+        sessionStorage.setItem("warmup_start_time", startTime.toString());
+        sessionStorage.removeItem("warmup_failed_sent");
+      }
+      sessionStorage.setItem("warmup_last_reload_time", now.toString());
+
+      // Reload if we are still within the allowed warmup window.
+      if (now - startTime < MAX_RELOADS * RELOAD_DELAY_MS) {
+        setTimeout(() => {
+          window.location.reload();
+        }, RELOAD_DELAY_MS);
+      } else {
+        // Reloads exhausted — switch to error state. If we are in an iframe, notify the parent frame.
+        if (window.parent !== window) {
+          document.querySelector(".spinner").style.display = "none";
+          document.querySelector("h1").textContent = "Your application failed to start";
+          document.querySelector("p").textContent =
+            "There was an error during the build process. " +
+            "Give us a moment to try and fix it...";
+          document.querySelector(".reload-button").style.display = "none";
+
+          // Notify the parent frame only if we haven't done so already.
+          if (sessionStorage.getItem("warmup_failed_sent") !== "true") {
+            window.parent.postMessage({ type: "__aistudio_warmup_failed" }, "*");
+            sessionStorage.setItem("warmup_failed_sent", "true");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
+ 
+09:08:50.484
+App
+Error
+ Failed to poll trip telemetry:
+  SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at b.getTrip (https://ais-dev-pxynqldp35dqfyh6wotq7b-439061307984.europe-west2.run.app/assets/index-gwd6HGO7.js:11:1345)
+    at async Ee (https://ais-dev-pxynqldp35dqfyh6wotq7b-439061307984.europe-west2.run.app/assets/index-gwd6HGO7.js:15:35896) 
+09:08:51.000
+Backend
+Log
+ ◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' } 
+09:08:51.329
+Backend
+Log
+ [Convoy Watch] Unified dev server listening on http://0.0.0.0:3000 
+09:08:51.329
+Backend
+Log
+ [Convoy Watch] MCP Streamable HTTP endpoint: http://0.0.0.0:3000/mcp 
+09:08:51.329
+Backend
+Log
+ [Convoy Watch] Simulation API: http://0.0.0.0:3000/api/trips 
+09:08:51.518
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:51.935
+Backend
+Log
+ Pre-warming completed. 
+09:08:53.021
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:53.151
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:53.433
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:53.598
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:54.476
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:56.024
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:56.175
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:56.417
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:56.785
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:56.945
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:58.853
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:08:59.045
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:08:59.251
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:08:59.465
+App
+Log
+ [API Client Debug] Response status: 200 
+09:08:59.465
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:01.773
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:02.019
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:02.024
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:02.478
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:02.630
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:04.840
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:05.021
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:05.203
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:05.564
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:05.929
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:07.779
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:08.020
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:08.024
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:08.439
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:08.628
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:10.431
+Backend
+Error
+ [NluService] Gemini call degraded to rule fallback parser: {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\nPlease retry in 50m45.30002746s.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"3045s"}]}} 
+09:09:10.923
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:11.032
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:11.035
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:11.464
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:11.622
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:13.790
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:14.017
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:14.022
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:14.390
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:14.584
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:16.740
+Backend
+Log
+ Installing node_modules... 
+09:09:16.740
+Backend
+Log
+ [0.04ms] ".env" 
+09:09:16.740
+Backend
+Log
+ bun install v1.4.2 (744846f84) 
+09:09:16.740
+Backend
+Log
+ Checked 282 installs across 398 packages (no changes) [23.00ms] 
+09:09:16.856
+Backend
+Log
+ Dependency installation finished. 
+09:09:16.856
+Backend
+Log
+ Server restarting... 
+09:09:16.856
+Backend
+Log
+ Server stopped. 
+09:09:16.856
+Backend
+Log
+ Server started on port 3000. 
+09:09:16.856
+Backend
+Log
+ Pre-warming 1 paths... 
+09:09:16.994
+Backend
+Log
+ > react-example@0.0.0 dev 
+09:09:17.118
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:17.119
+Backend
+Log
+ > tsx server.ts --port 3000 --host 0.0.0.0 
+09:09:17.237
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:17.525
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:17.641
+App
+Log
+ [API Client Debug] JSON Parse Error. Response body:
+  <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting Server...</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+
+      body {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        background-color: light-dark(#f5f5f5, #191919);
+        color: light-dark(#0f0f10, #d4d4d4);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container {
+        background: light-dark(#fff, #1f1f1f);
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow:
+          0 4px 6px -1px light-dark(rgba(10, 13, 18, 0.1), rgba(0, 0, 0, 0.5)),
+          0 2px 4px -2px light-dark(rgba(10, 13, 18, 0.06), rgba(0, 0, 0, 0.3));
+        max-width: 450px;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: light-dark(#0f0f10, #d4d4d4);
+      }
+
+      p {
+        font-size: 0.95rem;
+        color: light-dark(#5b5b64, #8c8c8c);
+        line-height: 1.5;
+        margin: 0;
+        text-wrap: balance;
+      }
+
+      /* Loading Spinner Animation */
+      .spinner {
+        margin: 0 auto 1.5rem auto;
+        width: 40px;
+        height: 40px;
+        border: 4px solid light-dark(#f0f0f0, #262626);
+        border-top: 4px solid light-dark(#076eff, #87a9ff); /* Blue color */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      .logo {
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto 2rem auto;
+      }
+
+      .reload-button {
+        margin-top: 2rem;
+        padding: 10px 24px;
+        font-family: inherit;
+        font-size: 0.875rem;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 100px;
+        border: 1px solid light-dark(#ebebeb, #333);
+        background-color: light-dark(#fff, #323232);
+        color: light-dark(#0f0f10, #fcfcfc);
+        transition: background-color 0.2s;
+      }
+
+      .reload-button:hover {
+        background-color: light-dark(#ebebeb, #424242);
+      }
+
+      .reload-button:active {
+        background-color: light-dark(#e5e5e5, #555);
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="logo"
+        src="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png"
+        alt="AI Studio Logo"
+        width="256"
+        height="256"
+      />
+      <div class="spinner"></div>
+      <h1>Please wait while your application starts...</h1>
+      <p>
+        If this page persists for a long time, there may have been an issue during the build
+        process.
+      </p>
+      <button class="reload-button" onclick="window.location.reload()">Reload now</button>
+    </div>
+
+    <script>
+      const MAX_RELOADS = 15;
+      const RELOAD_DELAY_MS = 5000;
+      const RESET_THRESHOLD_MS = 30000;
+
+      const now = Date.now();
+      let startTime = Number(sessionStorage.getItem("warmup_start_time") || "0");
+      const lastReloadTime = Number(
+        sessionStorage.getItem("warmup_last_reload_time") || "0"
+      );
+
+      // If the last reload attempt was a long time ago (or on first run), reset the start time.
+      // This handles the case where the app was working but then restarted later.
+      // Clear the "failed sent" flag as well, so we only notify the parent frame once.
+      // Check `now - lastReloadTime` instead of `now - startTime` so the reset threshold
+      // doesn't collide with the extended warmup window (MAX_RELOADS * RELOAD_DELAY_MS).
+      if (!startTime || now - lastReloadTime > RESET_THRESHOLD_MS) {
+        startTime = now;
+        sessionStorage.setItem("warmup_start_time", startTime.toString());
+        sessionStorage.removeItem("warmup_failed_sent");
+      }
+      sessionStorage.setItem("warmup_last_reload_time", now.toString());
+
+      // Reload if we are still within the allowed warmup window.
+      if (now - startTime < MAX_RELOADS * RELOAD_DELAY_MS) {
+        setTimeout(() => {
+          window.location.reload();
+        }, RELOAD_DELAY_MS);
+      } else {
+        // Reloads exhausted — switch to error state. If we are in an iframe, notify the parent frame.
+        if (window.parent !== window) {
+          document.querySelector(".spinner").style.display = "none";
+          document.querySelector("h1").textContent = "Your application failed to start";
+          document.querySelector("p").textContent =
+            "There was an error during the build process. " +
+            "Give us a moment to try and fix it...";
+          document.querySelector(".reload-button").style.display = "none";
+
+          // Notify the parent frame only if we haven't done so already.
+          if (sessionStorage.getItem("warmup_failed_sent") !== "true") {
+            window.parent.postMessage({ type: "__aistudio_warmup_failed" }, "*");
+            sessionStorage.setItem("warmup_failed_sent", "true");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
+ 
+09:09:17.646
+App
+Error
+ Failed to poll trip telemetry:
+  SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at b.getTrip (https://ais-dev-pxynqldp35dqfyh6wotq7b-439061307984.europe-west2.run.app/assets/index-gwd6HGO7.js:11:1345)
+    at async Ee (https://ais-dev-pxynqldp35dqfyh6wotq7b-439061307984.europe-west2.run.app/assets/index-gwd6HGO7.js:15:35896) 
+09:09:18.699
+Backend
+Log
+ ◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com] 
+09:09:19.020
+Backend
+Log
+ [Convoy Watch] Unified dev server listening on http://0.0.0.0:3000 
+09:09:19.171
+Backend
+Log
+ [Convoy Watch] MCP Streamable HTTP endpoint: http://0.0.0.0:3000/mcp 
+09:09:19.172
+Backend
+Log
+ [Convoy Watch] Simulation API: http://0.0.0.0:3000/api/trips 
+09:09:19.847
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:19.848
+Backend
+Log
+ Pre-warming completed. 
+09:09:20.018
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:20.023
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:20.415
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:20.558
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:21.627
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:22.819
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:23.030
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:23.035
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:23.549
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:23.837
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:25.876
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:26.030
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:26.169
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:26.645
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:26.922
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:28.792
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:29.027
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:29.032
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:29.524
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:29.762
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:31.794
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:31.956
+Backend
+Log
+ Installing node_modules... 
+09:09:31.956
+Backend
+Log
+ [0.05ms] ".env" 
+09:09:31.956
+Backend
+Log
+ bun install v1.4.2 (744846f84) 
+09:09:31.956
+Backend
+Log
+ Checked 282 installs across 398 packages (no changes) [25.00ms] 
+09:09:31.956
+Backend
+Log
+ Dependency installation finished. 
+09:09:31.956
+Backend
+Log
+ Server restarting... 
+09:09:31.957
+Backend
+Log
+ Server stopped. 
+09:09:31.957
+Backend
+Log
+ Server started on port 3000. 
+09:09:31.957
+Backend
+Log
+ Pre-warming 1 paths... 
+09:09:32.146
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:32.151
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:32.519
+Backend
+Log
+ > react-example@0.0.0 dev 
+09:09:32.519
+Backend
+Log
+ > tsx server.ts --port 3000 --host 0.0.0.0 
+09:09:32.864
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:33.131
+App
+Log
+ [API Client Debug] JSON Parse Error. Response body:
+  <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting Server...</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+
+      body {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        background-color: light-dark(#f5f5f5, #191919);
+        color: light-dark(#0f0f10, #d4d4d4);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container {
+        background: light-dark(#fff, #1f1f1f);
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow:
+          0 4px 6px -1px light-dark(rgba(10, 13, 18, 0.1), rgba(0, 0, 0, 0.5)),
+          0 2px 4px -2px light-dark(rgba(10, 13, 18, 0.06), rgba(0, 0, 0, 0.3));
+        max-width: 450px;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: light-dark(#0f0f10, #d4d4d4);
+      }
+
+      p {
+        font-size: 0.95rem;
+        color: light-dark(#5b5b64, #8c8c8c);
+        line-height: 1.5;
+        margin: 0;
+        text-wrap: balance;
+      }
+
+      /* Loading Spinner Animation */
+      .spinner {
+        margin: 0 auto 1.5rem auto;
+        width: 40px;
+        height: 40px;
+        border: 4px solid light-dark(#f0f0f0, #262626);
+        border-top: 4px solid light-dark(#076eff, #87a9ff); /* Blue color */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      .logo {
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto 2rem auto;
+      }
+
+      .reload-button {
+        margin-top: 2rem;
+        padding: 10px 24px;
+        font-family: inherit;
+        font-size: 0.875rem;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 100px;
+        border: 1px solid light-dark(#ebebeb, #333);
+        background-color: light-dark(#fff, #323232);
+        color: light-dark(#0f0f10, #fcfcfc);
+        transition: background-color 0.2s;
+      }
+
+      .reload-button:hover {
+        background-color: light-dark(#ebebeb, #424242);
+      }
+
+      .reload-button:active {
+        background-color: light-dark(#e5e5e5, #555);
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="logo"
+        src="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png"
+        alt="AI Studio Logo"
+        width="256"
+        height="256"
+      />
+      <div class="spinner"></div>
+      <h1>Please wait while your application starts...</h1>
+      <p>
+        If this page persists for a long time, there may have been an issue during the build
+        process.
+      </p>
+      <button class="reload-button" onclick="window.location.reload()">Reload now</button>
+    </div>
+
+    <script>
+      const MAX_RELOADS = 15;
+      const RELOAD_DELAY_MS = 5000;
+      const RESET_THRESHOLD_MS = 30000;
+
+      const now = Date.now();
+      let startTime = Number(sessionStorage.getItem("warmup_start_time") || "0");
+      const lastReloadTime = Number(
+        sessionStorage.getItem("warmup_last_reload_time") || "0"
+      );
+
+      // If the last reload attempt was a long time ago (or on first run), reset the start time.
+      // This handles the case where the app was working but then restarted later.
+      // Clear the "failed sent" flag as well, so we only notify the parent frame once.
+      // Check `now - lastReloadTime` instead of `now - startTime` so the reset threshold
+      // doesn't collide with the extended warmup window (MAX_RELOADS * RELOAD_DELAY_MS).
+      if (!startTime || now - lastReloadTime > RESET_THRESHOLD_MS) {
+        startTime = now;
+        sessionStorage.setItem("warmup_start_time", startTime.toString());
+        sessionStorage.removeItem("warmup_failed_sent");
+      }
+      sessionStorage.setItem("warmup_last_reload_time", now.toString());
+
+      // Reload if we are still within the allowed warmup window.
+      if (now - startTime < MAX_RELOADS * RELOAD_DELAY_MS) {
+        setTimeout(() => {
+          window.location.reload();
+        }, RELOAD_DELAY_MS);
+      } else {
+        // Reloads exhausted — switch to error state. If we are in an iframe, notify the parent frame.
+        if (window.parent !== window) {
+          document.querySelector(".spinner").style.display = "none";
+          document.querySelector("h1").textContent = "Your application failed to start";
+          document.querySelector("p").textContent =
+            "There was an error during the build process. " +
+            "Give us a moment to try and fix it...";
+          document.querySelector(".reload-button").style.display = "none";
+
+          // Notify the parent frame only if we haven't done so already.
+          if (sessionStorage.getItem("warmup_failed_sent") !== "true") {
+            window.parent.postMessage({ type: "__aistudio_warmup_failed" }, "*");
+            sessionStorage.setItem("warmup_failed_sent", "true");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
+ 
+09:09:33.298
+App
+Error
+ Failed to poll trip telemetry:
+  SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at b.getTrip (https://ais-dev-pxynqldp35dqfyh6wotq7b-439061307984.europe-west2.run.app/assets/index-gwd6HGO7.js:11:1345)
+    at async Ee (https://ais-dev-pxynqldp35dqfyh6wotq7b-439061307984.europe-west2.run.app/assets/index-gwd6HGO7.js:15:35896) 
+09:09:34.005
+Backend
+Log
+ ◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' } 
+09:09:34.313
+Backend
+Log
+ [Convoy Watch] Unified dev server listening on http://0.0.0.0:3000 
+09:09:34.440
+Backend
+Log
+ [Convoy Watch] MCP Streamable HTTP endpoint: http://0.0.0.0:3000/mcp 
+09:09:34.440
+Backend
+Log
+ [Convoy Watch] Simulation API: http://0.0.0.0:3000/api/trips 
+09:09:34.821
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:34.964
+Backend
+Log
+ Pre-warming completed. 
+09:09:35.110
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:35.265
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:35.718
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:35.881
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:37.840
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:38.017
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:38.179
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:38.412
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:38.688
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:40.797
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:41.030
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:41.035
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:41.420
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:41.576
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:42.472
+Backend
+Log
+ Starting build... 
+09:09:42.676
+Backend
+Log
+ > react-example@0.0.0 build 
+09:09:42.676
+Backend
+Log
+ > npm run build:pkg && npm run build:client && npm run build:server 
+09:09:42.845
+Backend
+Log
+ > react-example@0.0.0 build:pkg 
+09:09:42.845
+Backend
+Log
+ > npm run build --workspace=packages/mcp-provenance 
+09:09:43.077
+Backend
+Log
+ > @convoy/mcp-provenance@1.0.0 build 
+09:09:43.236
+Backend
+Log
+ > tsc -p tsconfig.json 
+09:09:43.745
+Backend
+Log
+ > react-example@0.0.0 build:client 
+09:09:43.745
+Backend
+Log
+ > vite build 
+09:09:43.917
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:43.918
+Backend
+Log
+ vite v8.3.4 building client environment for production... 
+09:09:44.101
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:44.102
+Backend
+Log
+ transforming... 
+09:09:44.108
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:44.507
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:44.696
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:44.696
+Backend
+Log
+ ✓ 1673 modules transformed. 
+09:09:44.696
+Backend
+Log
+ rendering chunks... 
+09:09:44.696
+Backend
+Log
+ computing gzip size... 
+09:09:44.696
+Backend
+Log
+ dist/index.html                   0.97 kB │ gzip:  0.44 kB 
+09:09:44.696
+Backend
+Log
+ dist/assets/index-D3cRSQux.css   49.45 kB │ gzip:  9.04 kB 
+09:09:44.696
+Backend
+Log
+ dist/assets/index-FZz3hf8_.js   326.62 kB │ gzip: 99.29 kB 
+09:09:44.696
+Backend
+Log
+ ✓ built in 759ms 
+09:09:44.878
+Backend
+Log
+ > react-example@0.0.0 build:server 
+09:09:45.066
+Backend
+Log
+ > esbuild server/index.ts --bundle --platform=node --target=node22 --format=esm --packages=external --outfile=dist/server.js 
+09:09:45.066
+Backend
+Log
+ dist/server.js  56.0kb 
+09:09:45.066
+Backend
+Log
+ ⚡ Done in 9ms 
+09:09:45.066
+Backend
+Log
+ Build successful. 
+09:09:46.773
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:47.030
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:47.035
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:47.459
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:47.652
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:48.094
+Backend
+Log
+ Installing node_modules... 
+09:09:48.094
+Backend
+Log
+ [0.04ms] ".env" 
+09:09:48.095
+Backend
+Log
+ bun install v1.4.2 (744846f84) 
+09:09:48.275
+Backend
+Log
+ Checked 282 installs across 398 packages (no changes) [25.00ms] 
+09:09:48.275
+Backend
+Log
+ Dependency installation finished. 
+09:09:48.275
+Backend
+Log
+ Server restarting... 
+09:09:48.275
+Backend
+Log
+ Server stopped. 
+09:09:48.275
+Backend
+Log
+ Server started on port 3000. 
+09:09:48.275
+Backend
+Log
+ Pre-warming 1 paths... 
+09:09:48.484
+Backend
+Log
+ > react-example@0.0.0 dev 
+09:09:48.484
+Backend
+Log
+ > tsx server.ts --port 3000 --host 0.0.0.0 
+09:09:50.031
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:50.260
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:50.260
+Backend
+Log
+ ◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com] 
+09:09:50.455
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:50.700
+Backend
+Log
+ [Convoy Watch] Unified dev server listening on http://0.0.0.0:3000 
+09:09:50.700
+Backend
+Log
+ [Convoy Watch] MCP Streamable HTTP endpoint: http://0.0.0.0:3000/mcp 
+09:09:50.700
+Backend
+Log
+ [Convoy Watch] Simulation API: http://0.0.0.0:3000/api/trips 
+09:09:50.700
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:51.159
+Backend
+Log
+ Pre-warming completed. 
+09:09:53.028
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:53.207
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:53.475
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:53.475
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:53.773
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:55.967
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:56.195
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:56.416
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:56.596
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:56.810
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:57.922
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:09:59.025
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:09:59.030
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:09:59.443
+App
+Log
+ [API Client Debug] Response status: 200 
+09:09:59.670
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:00.655
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:02.026
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:02.217
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:02.421
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:02.422
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:03.657
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:05.024
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:05.221
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:05.479
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:05.832
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:06.167
+Backend
+Error
+ [NluService] Gemini call degraded to rule fallback parser: {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\nPlease retry in 49m49.55197899s.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"2989s"}]}} 
+09:10:06.637
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:08.021
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:08.198
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:08.426
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:08.644
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:09.606
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:11.023
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:11.195
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:11.451
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:11.649
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:12.628
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:14.024
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:14.238
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:14.533
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:14.534
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:15.696
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:16.539
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:17.023
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:17.210
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:17.435
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:17.436
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:18.625
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:20.021
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:20.242
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:20.463
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:20.464
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:21.629
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:23.021
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:23.215
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:23.493
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:23.493
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:24.834
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:26.019
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:26.268
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:26.508
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:26.508
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:27.655
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:29.019
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:29.243
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:29.491
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:29.491
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:30.639
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:32.020
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:32.033
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:32.426
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:32.635
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:33.692
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:35.019
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:35.027
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:35.456
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:35.456
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:36.700
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:38.022
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:38.032
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:38.413
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:38.425
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:39.633
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:41.018
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:41.030
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:41.513
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:41.951
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:42.680
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:44.019
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:44.276
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:44.515
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:44.516
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:45.664
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:47.022
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:47.032
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:47.449
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:47.729
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:48.713
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:50.021
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:50.034
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:50.480
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:50.480
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:51.819
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:53.020
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:53.031
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:53.414
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:53.989
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:54.638
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:56.039
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:56.342
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:56.686
+App
+Log
+ [API Client Debug] Response status: 200 
+09:10:56.687
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:57.677
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:59.032
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:10:59.038
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:10:59.662
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:10:59.955
+App
+Log
+ [API Client Debug] Response status: 200 
+09:11:00.639
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:11:02.049
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:11:02.325
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:11:02.625
+App
+Log
+ [API Client Debug] Response status: 200 
+09:11:02.625
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:11:03.657
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:11:05.037
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:11:05.251
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:11:05.617
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:11:05.617
+App
+Log
+ [API Client Debug] Response status: 200 
+09:11:06.641
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:11:08.035
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:11:08.286
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:11:08.653
+App
+Log
+ [API Client Debug] Response status: 200 
+09:11:08.653
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:11:09.616
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:11:11.043
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:11:11.255
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:11:11.498
+App
+Log
+ [API Client Debug] Response status: 200 
+09:11:11.499
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:11:12.636
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 
+09:11:14.035
+App
+Log
+ [API Client Debug] Fetching URL: /api/trips/TRIP-KLA-JINJA-01 with key: judge... 
+09:11:14.245
+App
+Log
+ [API Client Debug] Headers:
+  {
+  "Authorization": "Bearer judge-alexa-plus-demo-key-2026-v1"
+} 
+09:11:14.525
+App
+Log
+ [API Client Debug] Response status: 200 
+09:11:14.525
+Backend
+Log
+ [Server Debug] Request to /api/trips/TRIP-KLA-JINJA-01 

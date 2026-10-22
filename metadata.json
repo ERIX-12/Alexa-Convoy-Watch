@@ -1,0 +1,6 @@
+{
+  "name": "Convoy Watch",
+  "description": "Autonomous, approval-gated fleet trip watcher powered by a self-hosted Streamable HTTP MCP server and Alexa+ voice simulation.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

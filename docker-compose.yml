@@ -1,0 +1,40 @@
+# Convoy Watch Docker Compose
+# Orchestrates Convoy Watch with optional Redis persistence adapter
+# NOTE: Docker daemon is unavailable in the AI Studio environment; this file is unverified locally.
+
+version: '3.8'
+
+services:
+  convoy-watch:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - API_SECRET_KEY=production-secure-key-32-chars-long-minimum-v1
+      - JUDGE_API_KEY=judge-alexa-plus-demo-key-2026-v1
+      - REDIS_URL=redis://redis:6379
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  redis_data:

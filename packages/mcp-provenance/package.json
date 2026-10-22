@@ -1,0 +1,22 @@
+{
+  "name": "@convoy/mcp-provenance",
+  "version": "1.0.0",
+  "description": "Zero-dependency provenance, telemetry validation, and spoken-phrase trust library for Convoy Watch and MCP servers.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --import tsx/esm test/provenance.test.ts"
+  },
+  "keywords": [
+    "mcp",
+    "provenance",
+    "telemetry",
+    "gps",
+    "trust",
+    "alexa"
+  ],
+  "author": "Convoy Watch Team",
+  "license": "MIT"
+}

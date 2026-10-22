@@ -1,0 +1,126 @@
+/**
+ * Convoy Watch — Design System Tokens
+ * Rooted in Ugandan landscape: warm savanna earth, ochre laterite soil, Nile teal.
+ * Dark theme default with smart-display presence and light theme support.
+ */
+
+:root {
+  /* Color Roles: Dark Theme Default (Savanna Earth at Dawn) */
+  --surface-ground: #100e0d;
+  --surface-card: #191614;
+  --surface-elevated: #241f1c;
+  --surface-subtle: #1c1815;
+  --surface-overlay: rgba(16, 14, 13, 0.88);
+
+  --border-subtle: #2d2621;
+  --border-default: #3d332d;
+  --border-focus: #e07e3c;
+
+  --text-primary: #fcfaf7;
+  --text-secondary: #d6cac0;
+  --text-muted: #9c8d7f;
+  --text-inverse: #100e0d;
+
+  /* Ugandan Landscape Accents */
+  --accent: #e07e3c; /* Warm Ugandan Ochre / Red Earth */
+  --accent-hover: #ea8a47;
+  --accent-active: #c56525;
+  --accent-subtle: rgba(224, 126, 60, 0.14);
+  --accent-glow: rgba(224, 126, 60, 0.35);
+
+  --accent-nile: #22b8ad; /* Nile Basin Teal (brightened for dark theme contrast) */
+  --accent-nile-subtle: rgba(34, 184, 173, 0.15);
+
+  /* Status Tokens (Harmonized, Never Alarmist) */
+  --status-normal: #42b87c; /* Ugandan Canopy Green */
+  --status-normal-subtle: rgba(66, 184, 124, 0.15);
+  --status-moderate: #e09842; /* Savanna Sunset Amber */
+  --status-moderate-subtle: rgba(224, 152, 66, 0.15);
+  --status-critical: #eb6352; /* Laterite Terracotta Red */
+  --status-critical-subtle: rgba(235, 99, 82, 0.15);
+
+  /* Spacing Scale (4/8px base) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Radius Scale */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.55);
+  --shadow-sheet: 0 -8px 32px rgba(0, 0, 0, 0.65);
+  --shadow-accent: 0 4px 20px rgba(224, 126, 60, 0.25);
+
+  /* Typography */
+  --font-display: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Motion */
+  --motion-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-normal: 250ms cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-slow: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Light Theme Overrides (Warm Sunlit Savanna Linen) */
+[data-theme="light"] {
+  --surface-ground: #f8f5f0;
+  --surface-card: #ffffff;
+  --surface-elevated: #f0eae1;
+  --surface-subtle: #faf8f5;
+  --surface-overlay: rgba(248, 245, 240, 0.92);
+
+  --border-subtle: #e5ddd0;
+  --border-default: #d6cab8;
+  --border-focus: #9e4612;
+
+  --text-primary: #1e1916;
+  --text-secondary: #54473d;
+  --text-muted: #68594e;
+  --text-inverse: #fcfaf7;
+
+  --accent: #9e4612;
+  --accent-hover: #b05016;
+  --accent-active: #82380d;
+  --accent-subtle: rgba(158, 70, 18, 0.12);
+  --accent-glow: rgba(158, 70, 18, 0.25);
+
+  --accent-nile: #126660;
+  --accent-nile-subtle: rgba(18, 102, 96, 0.12);
+
+  --status-normal: #1e6d42;
+  --status-normal-subtle: rgba(30, 109, 66, 0.12);
+  --status-moderate: #8c520e;
+  --status-moderate-subtle: rgba(140, 82, 14, 0.12);
+  --status-critical: #a82c1e;
+  --status-critical-subtle: rgba(168, 44, 30, 0.12);
+
+  --shadow-sm: 0 1px 3px rgba(45, 38, 33, 0.08);
+  --shadow-md: 0 4px 14px rgba(45, 38, 33, 0.12);
+  --shadow-lg: 0 12px 30px rgba(45, 38, 33, 0.16);
+  --shadow-sheet: 0 -8px 32px rgba(45, 38, 33, 0.18);
+}
+
+/* Respect Prefers Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
